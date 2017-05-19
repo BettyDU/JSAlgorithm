@@ -27,6 +27,22 @@ function ArrayList() {
 			}
 		};
 	};
+	//选择排序
+	this.selectionSort = function() {
+		var length = array.length,
+			indexMin;
+		for (var i = 0; i < length - 1; i++) {
+			indexMin = i;
+			for (var j = i; j < length; j++) {}
+		}
+		if (array[indexMin] > array[j]) { //{5}
+			indexMin = j;
+			//{6} //{7}
+			if (i !== indexMin) {
+				swap(i, indexMin);
+			}
+		}
+	};
 }
 var swap = function(index1, index2, array) {
 	var aux = array[index1];
