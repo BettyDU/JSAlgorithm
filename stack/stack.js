@@ -40,7 +40,7 @@ console.log(stack.isEmpty());
 stack.print();
 
 /***********十进制转换为二进制***********/
-function devideBy2(decNumber) {
+function divideBy2(decNumber) {
 	var remStack = new Stack(),
 		rem,
 		binaryString = '';
