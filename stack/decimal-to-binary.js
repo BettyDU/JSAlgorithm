@@ -1,4 +1,4 @@
-/***********十进制转换为二进制***********/
+/***********整数十进制转换为二进制***********/
 function divideBy2(decNumber) {
 	var remStack = new Stack(),
 		rem,
