@@ -21,6 +21,7 @@ this.binarySearch = function(item) {
 			return mid;
 		}
 	}
+
 	return -1;
 };
 
@@ -41,5 +42,6 @@ this.binarySearch = function(low, high, item) {
 			return mid;
 		}
 	}
+
 	return -1;
 };
